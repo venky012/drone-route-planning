@@ -1,4 +1,4 @@
-#SIH 2020 TeamAlpha
+# SIH 2020 TeamAlpha
 
 run_me.py files is to be executed.
 
