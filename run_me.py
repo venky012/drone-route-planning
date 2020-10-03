@@ -5,7 +5,7 @@ import matplotlib.path
 
 polygon = [(-5,0), ( -4,3),(-1,1), (0,-5), (-4,-3),(-5,0)]
 
-x,y = np.meshgrid(np.arange(-6,6,1),np.arange(-6,6,1))
+x,y = np.meshgrid(np.arange(-6,6,1),np.arange(-6,6,1))  # Creating grid in the given polygon
 points = list(zip(x.flatten(),y.flatten()))
 
 path2 = matplotlib.path.Path(polygon[::-1])
