@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.path
 
 
-polygon = [(-5,0), ( -4,3),(-1,1), (0,-5), (-4,-3),(-5,0)]
+polygon = [(-5,0), ( -4,3),(-1,1), (0,-5), (-4,-3),(-5,0)] # Shape of the plot
 
 x,y = np.meshgrid(np.arange(-6,6,1),np.arange(-6,6,1))
 points = list(zip(x.flatten(),y.flatten()))
