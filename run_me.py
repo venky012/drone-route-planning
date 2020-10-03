@@ -11,7 +11,7 @@ points = list(zip(x.flatten(),y.flatten()))
 path2 = matplotlib.path.Path(polygon[::-1])
 inside2 = path2.contains_points(points,radius=1e-9)
 
-fig,(ax2)=plt.subplots(ncols=1, figsize=(6,3))
+fig,(ax2)=plt.subplots(ncols=1, figsize=(6,3))       #plotting  graphs
 patch2 = plt.Polygon(polygon[::-1], zorder=0, fill=False, lw=2)
 ax2.add_patch(patch2)
 ax2.scatter(x.flatten(),y.flatten(), c=inside2.astype(float),cmap="RdYlGn", vmin=-.1,vmax=1.2)
